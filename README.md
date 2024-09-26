@@ -1,6 +1,6 @@
 # NiceBase
 
-NiceBase es una aplicación de seguimiento de clientes sencilla, construida durante el último trimestre en el SENA con Laravel 11, permite realizar operaciones CRUD de forma eficiente. Ideal para consecionarios de motos o grupos de ventas.
+NiceBase es una aplicación de seguimiento de clientes sencilla, construida para el proyecto del último trimestre en el SENA con Laravel 11, permite realizar operaciones CRUD de forma eficiente. Ideal para consecionarios de motos o grupos de ventas.
 
 ## Características
 - Creación, edición y eliminación de registros
