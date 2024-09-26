@@ -20,25 +20,25 @@ NiceBase es una aplicación de seguimiento de clientes sencilla, construida para
 - Node.js y NPM (para correr Vite, para el frontend)
 
 ## Instalación (de manera local)
-1. Clonar el repositorio:
-    git clone https://github.com/EmmanuelOG-dev/NiceBase.git
+Clonar el repositorio:
+- `git clone https://github.com/EmmanuelOG-dev/NiceBase.git`
 
-2. Ir al directorio del proyecto:
-    cd NiceBase
+Ir al directorio del proyecto:
+- `cd NiceBase`
 
-3. Instalar las dependencias de PHP con Composer:
-    composer install
+Instalar las dependencias de PHP con Composer:
+- `composer install`
 
-4. Instalar las dependencias de Node.js:
-    npm install
-    npm run dev
+Instalar las dependencias de Node.js:
+- `npm install`
+- `npm run dev`
 
-5. Crear el archivo .env y configura tus variables de entorno (base de datos, etc):
-    cp .env.example .env
-    php artisan key:generate
+Crear el archivo .env y configura tus variables de entorno (base de datos, etc):
+- `cp .env.example .env`
+- `php artisan key:generate`
 
-7. Ejecuta las migraciones de la base de datos:
-    php artisan migrate
+Ejecuta las migraciones de la base de datos:
+- `php artisan migrate`
 
-8. Ejecuta la aplicación (para acceder desde tu navegador en http://localhost:8000):
-    php artisan serve
+Ejecuta la aplicación (para acceder desde tu navegador en http://localhost:8000):
+- `php artisan serve`
