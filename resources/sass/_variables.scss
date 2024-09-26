@@ -1,0 +1,37 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Sidebar links
+$nav-link-color: #ffffff;
+$nav-link-hover-color: #74caff;
+
+$prefix: "custom-";
+
+.nav-link {
+  --#{$prefix}nav-link-color: #{$nav-link-color};
+  --#{$prefix}nav-link-hover-color: #{$nav-link-hover-color};
+  
+  color: var(--#{$prefix}nav-link-color);
+
+  &:hover {
+    color: var(--#{$prefix}nav-link-hover-color);
+  }
+}
+
+
+//cards
+$prefix: "custom-";
+$card-header-color: #ffffff;
+$card-header-background-color: #212529;
+
+.card-header {
+  --#{$prefix}card-header-color: #{$card-header-color};
+  --#{$prefix}card-header-background-color: #{$card-header-background-color};
+  color: var(--#{$prefix}card-header-color);
+  background-color: var(--#{$prefix}card-header-background-color);
+}

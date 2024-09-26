@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.logo{
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+
+.date {
+    font-size: 12px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
