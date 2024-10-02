@@ -14,9 +14,9 @@ NiceBase es una aplicación de seguimiento de clientes sencilla, construida para
 - Soporte para bases de datos MySQL
 
 ## Requisitos previos
-- PHP >= 8.1
+- PHP >= 8.2.12
 - Composer
-- MySQL
+- MySQL 15.1
 - Node.js y NPM (para correr Vite, para el frontend)
 
 ## Instalación (de manera local)
